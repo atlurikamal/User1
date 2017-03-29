@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operations</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        
+        <form action="http://localhost:8080/UserBooks1/add" method="GET">
+            <fieldset>
+                <legend>Add User</legend>
+                <label>Name <input type="text" name="name" required><br></label>
+                <label>Password <input type="password" name="pwd"><br></label>
+                <label><input type="submit" value="addUser"></label>
+            </fieldset>
+        </form>
+        <form action="http://localhost:8080/UserBooks1/update" method="GET">
+            <fieldset>
+                <legend>Update a book</legend>
+                <label>User Name <input type="text" name="uname" required><br></label>
+                <label>Book Id <input type="number" name="bid"><br></label>
+                <label>Book Name <input type="text" name="bname"><br></label>
+                <label>Author <input type="password" name="auth"><br></label>
+                <label>Price <input type="number" name="price"><br></label>
+                <label><input type="submit" value="UpdateBook"><br></label>
+            </fieldset>
+        </form>
+         <form action="http://localhost:8080/UserBooks1/delete" method="GET">
+            <fieldset>
+                <legend>Delete book</legend>
+                <label>Book Id <input type="number" name="bid" required><br></label><br>            
+                <label><input type="submit" value="Delete Book"></label>
+            </fieldset>
+        </form>
+        <form action="http://localhost:8080/UserBooks1/addcookie" method="GET">
+            <fieldset>
+                <label><input type="submit" value="addUser"></label>
+            </fieldset>
+        </form>
+    </body>
+</html>

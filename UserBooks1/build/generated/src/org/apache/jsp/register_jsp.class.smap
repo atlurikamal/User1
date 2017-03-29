@@ -1,0 +1,23 @@
+SMAP
+register_jsp.java
+JSP
+*S JSP
+*F
++ 0 register.jsp
+register.jsp
++ 1 heading.html
+heading.html
+*L
+1,11:51
+1#1,14:62
+11#0,7:75
+18:82,10
+19:92,3
+20:95
+21,3:97
+23,3:100
+25,2:103
+26,3:105
+28,3:108
+30,7:111
+*E
